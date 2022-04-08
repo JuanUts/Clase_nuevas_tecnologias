@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(187, 183, 183, 0.589);
+}
+section#hoja-vida{
+    width: 60vw;
+    /* height: 90vh; */
+    
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    padding-bottom: 50px;
+
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: -10px 10px 10px gray;
+
+    display: flex;
+}
+
+div#div-izquierda{
+    padding: 20px;
+    /* background-color: rgb(255, 255, 255); */
+    width: 50%;
+    text-align: center;
+
+}
+
+div#div-izquierda img{
+    width: 42%;
+    border-radius: 24px;
+    
+}
+div#div-izquierda div#datos-contacto{
+    width: 33%;
+    /* background-color: red; */
+    margin: auto;
+    text-align: left;
+}
+
+div#div-izquierda div#datos-contacto svg{
+    width: 20px;
+}
+
+
+div#habilidades table{
+    /* border: solid; */
+    margin: auto;
+    border-spacing: 50px 20px;
+    text-align: left;
+}
+
+
+div#idiomas ul{
+    
+    display: inline-block;
+    margin: auto;
+}
+
+/* ***************DERECHA ****************/
+
+div#div-derecha{
+    /* padding: 20px; */
+    /* background-color: aqua; */
+
+    width: 50%;
+    
+
+    /* border: solid; */
+}
+
+div#presentacion{
+    padding: 20px;
+    background-color: #ffce6d;
+    /* position: relative; */
+}
+h1{
+    font-size: 4em;
+}
+
+div#presentacion div{
+    background-color: #291B25;
+    color: white;
+    
+    position: relative;
+    left: -50px;
+    padding: 10px;
+}
+div#estudios table{
+    /* border: solid; */
+    border-spacing: 10px 20px;
+}
+
+div#cursos table{
+    /* border: solid; */
+    border-spacing: 10px 20px;
+}
+
